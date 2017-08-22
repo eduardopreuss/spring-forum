@@ -16,7 +16,7 @@ public class AssuntoController {
 	
 	@Autowired
 	private DAOTopico daoTopico;
-	//ddd
+	//teste pro machado
 	@RequestMapping("/assunto/{id}")
 	public ModelAndView show(Long id) {
 		ModelAndView resultado = new ModelAndView();
