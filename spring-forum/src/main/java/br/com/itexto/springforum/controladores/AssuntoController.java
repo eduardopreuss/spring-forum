@@ -16,7 +16,7 @@ public class AssuntoController {
 	
 	@Autowired
 	private DAOTopico daoTopico;
-	
+	//ddd
 	@RequestMapping("/assunto/{id}")
 	public ModelAndView show(Long id) {
 		ModelAndView resultado = new ModelAndView();
